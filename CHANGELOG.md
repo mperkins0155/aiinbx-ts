@@ -1,5 +1,88 @@
 # Changelog
 
+## 2.0.0 (2026-01-16)
+
+Full Changelog: [v1.229.0...v2.0.0](https://github.com/aiinbx/aiinbx-ts/compare/v1.229.0...v2.0.0)
+
+### ⚠ BREAKING CHANGES
+
+* **mcp:** remove deprecated tool schemes
+* **mcp:** **Migration:** To migrate, simply modify the command used to invoke the MCP server. Currently, the only supported tool scheme is code mode. Now, starting the server with just `node /path/to/mcp/server` or `npx package-name` will invoke code tools: changing your command to one of these is likely all you will need to do.
+
+### Features
+
+* **api:** api update ([a123768](https://github.com/aiinbx/aiinbx-ts/commit/a123768cb9a016448be854734442005300bc2b76))
+* **api:** api update ([88b7949](https://github.com/aiinbx/aiinbx-ts/commit/88b7949576da17772655cab4dc4d3d24d946c622))
+* **api:** api update ([1bb2406](https://github.com/aiinbx/aiinbx-ts/commit/1bb24069c3a6d99e1ae4c93819ed18b4254f07e2))
+* **api:** api update ([27049cb](https://github.com/aiinbx/aiinbx-ts/commit/27049cbb3b6e0885fd76a0513a40d959d2279f5a))
+* **api:** api update ([40f2dff](https://github.com/aiinbx/aiinbx-ts/commit/40f2dff11ac20bbe4517662089dc95b308c7cf87))
+* **api:** api update ([7ef4baf](https://github.com/aiinbx/aiinbx-ts/commit/7ef4baf9e2cb6f2ef91423cada7ad0c3a915bf68))
+* **api:** api update ([5789599](https://github.com/aiinbx/aiinbx-ts/commit/5789599137af1102867bbac9cda21d015799459b))
+* **api:** api update ([c1c0a60](https://github.com/aiinbx/aiinbx-ts/commit/c1c0a60e6b97991a7071b1e0053cf259df2852a8))
+* **api:** api update ([a82ee86](https://github.com/aiinbx/aiinbx-ts/commit/a82ee8656d5d82089c3e0bddf5e3cfa84e0b887b))
+* **api:** api update ([b89b8a8](https://github.com/aiinbx/aiinbx-ts/commit/b89b8a8b3ad96375f15e3b99f27b36afb3397f37))
+* **api:** api update ([91ca282](https://github.com/aiinbx/aiinbx-ts/commit/91ca2825e3b41be23ab098a2bde3b66197bbf03b))
+* **api:** api update ([972de5e](https://github.com/aiinbx/aiinbx-ts/commit/972de5e270f27b06776b9c3295f016f08c0ebf2c))
+* **api:** api update ([406bc62](https://github.com/aiinbx/aiinbx-ts/commit/406bc623024b2ebb0eebc10264fc7376a564c251))
+* **api:** api update ([96ce928](https://github.com/aiinbx/aiinbx-ts/commit/96ce928f42a01c4b8b7eb74260c8efaefe6629ce))
+* **api:** api update ([8dd81da](https://github.com/aiinbx/aiinbx-ts/commit/8dd81da2befb1c742683ab56291bd3ca08915cf6))
+* **api:** api update ([2cdfd98](https://github.com/aiinbx/aiinbx-ts/commit/2cdfd98f06fdc6714f7c1fb2fab7c020339559a4))
+* **api:** api update ([957ab21](https://github.com/aiinbx/aiinbx-ts/commit/957ab2171dfe786acaf3f5145b2cd733b739cf84))
+* **api:** api update ([7f23933](https://github.com/aiinbx/aiinbx-ts/commit/7f239338c9ce00a28a8414df71a7cb51872deb1f))
+* **api:** api update ([112a756](https://github.com/aiinbx/aiinbx-ts/commit/112a756108910511b34154d2ba26f62871648048))
+* **api:** api update ([025ed8f](https://github.com/aiinbx/aiinbx-ts/commit/025ed8f099e537b9c7dc6ec43f5136c34f4d1b10))
+* **api:** api update ([97f85c7](https://github.com/aiinbx/aiinbx-ts/commit/97f85c71982c54d25228afdac2861b589911d244))
+* **api:** api update ([3c5b596](https://github.com/aiinbx/aiinbx-ts/commit/3c5b5966436450c0afce649f15d3085d4bf0798b))
+* **api:** api update ([7e62b65](https://github.com/aiinbx/aiinbx-ts/commit/7e62b65c5c0de249b1e85ce7d2f716d457734f9a))
+* **api:** api update ([f40c7f7](https://github.com/aiinbx/aiinbx-ts/commit/f40c7f7f00a06e6ccf4c297d659ab9127b2767c4))
+* **api:** api update ([1c13826](https://github.com/aiinbx/aiinbx-ts/commit/1c1382647e216dcb6d905dabc6d9520760fa24a1))
+* **api:** api update ([ecd47b1](https://github.com/aiinbx/aiinbx-ts/commit/ecd47b10b1fc839505ca949bcd0590079b56107a))
+* **api:** api update ([527300c](https://github.com/aiinbx/aiinbx-ts/commit/527300cc5ea01fff7867689b3c71d4a1a3d70763))
+* **api:** api update ([dc0598e](https://github.com/aiinbx/aiinbx-ts/commit/dc0598e3ec3b4812c4200b72e166bb30aaef64e8))
+* **api:** api update ([5bbc3a3](https://github.com/aiinbx/aiinbx-ts/commit/5bbc3a399c36f98312b822f4be2b9ab93e6aae8d))
+* **api:** api update ([f4f4d16](https://github.com/aiinbx/aiinbx-ts/commit/f4f4d16ceaaecda085fa788c2622ae4cc189badc))
+* **api:** api update ([2905615](https://github.com/aiinbx/aiinbx-ts/commit/2905615369d11deb4be30b5391563d3f01b979d9))
+* **api:** api update ([9216ffe](https://github.com/aiinbx/aiinbx-ts/commit/9216ffe435bd6480e4fb28f3318e140e86134589))
+* **api:** api update ([9d3fe06](https://github.com/aiinbx/aiinbx-ts/commit/9d3fe062520dbb9082200555b417b62d11443262))
+* **api:** api update ([4b33373](https://github.com/aiinbx/aiinbx-ts/commit/4b333736acf87ca76052bba29cf71312c12066ce))
+* **api:** api update ([a499f6b](https://github.com/aiinbx/aiinbx-ts/commit/a499f6bd9ede1901df8030d3efca61ed7a8564c8))
+* **api:** api update ([950a9d1](https://github.com/aiinbx/aiinbx-ts/commit/950a9d16298ea4290a32f9da7ff50a916b2e0cd7))
+* **api:** api update ([b779bc1](https://github.com/aiinbx/aiinbx-ts/commit/b779bc1b82f7ba53efae27e8505bcddc3965504a))
+* **api:** api update ([540c29c](https://github.com/aiinbx/aiinbx-ts/commit/540c29c21d5a91804ca06717e0380c07cb5066af))
+* **api:** api update ([0a60ee8](https://github.com/aiinbx/aiinbx-ts/commit/0a60ee80d3e1071e54f76be63f0925b770015b0f))
+* **api:** api update ([e041fbb](https://github.com/aiinbx/aiinbx-ts/commit/e041fbbff3c716f469f008d6010b96bf7daa21df))
+* **api:** api update ([ecca3af](https://github.com/aiinbx/aiinbx-ts/commit/ecca3aff4683de6d119dc98af5c0b6b0888ec6f9))
+* **api:** api update ([895ef4d](https://github.com/aiinbx/aiinbx-ts/commit/895ef4d75b672bd629f75365fae2ae25406d7004))
+* **api:** api update ([285568f](https://github.com/aiinbx/aiinbx-ts/commit/285568f846b8101a47b67b1aebda2b4d9642708a))
+* **api:** api update ([338baf9](https://github.com/aiinbx/aiinbx-ts/commit/338baf9600192709b83c2876ef94082e9875d9c6))
+
+
+### Bug Fixes
+
+* **mcp:** correct code tool api output types ([975e7fe](https://github.com/aiinbx/aiinbx-ts/commit/975e7fe8f1e18807db3fd3e92a8a62fc6739e42f))
+* **mcp:** fix env parsing ([5209c71](https://github.com/aiinbx/aiinbx-ts/commit/5209c71819ce11d18f4fbbd1f8a8f4017e0e00a3))
+* **mcp:** fix options parsing ([0b59e3f](https://github.com/aiinbx/aiinbx-ts/commit/0b59e3fc4d7fc4b4fc1ec4fa20d1928a92565449))
+* **mcp:** update code tool prompt ([3964339](https://github.com/aiinbx/aiinbx-ts/commit/39643398095a49b3067a15b740ebdfbffaf439ed))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([40af579](https://github.com/aiinbx/aiinbx-ts/commit/40af57958103975191a59cd72ad70641fed1d818))
+* **internal:** codegen related update ([53a30e9](https://github.com/aiinbx/aiinbx-ts/commit/53a30e9f8fdff622c764464ca1b33d4ee7230b71))
+* **internal:** codegen related update ([7aea148](https://github.com/aiinbx/aiinbx-ts/commit/7aea14870df1fc2ee69476ac82746d52250e042a))
+* **internal:** codegen related update ([2938e4a](https://github.com/aiinbx/aiinbx-ts/commit/2938e4a80d500e745b4bcb8321e89d5e3adb17e2))
+* **internal:** codegen related update ([8bd9faa](https://github.com/aiinbx/aiinbx-ts/commit/8bd9faad036648ae9c991d6edd4387b02517afa8))
+* **internal:** upgrade babel, qs, js-yaml ([e795e4b](https://github.com/aiinbx/aiinbx-ts/commit/e795e4bdaeb64038427951ac08c764a44695ddca))
+* **mcp:** add intent param to execute tool ([ecacaaa](https://github.com/aiinbx/aiinbx-ts/commit/ecacaaa94f02e4df66d10f2de7aca7bf257a2a62))
+* **mcp:** pass intent param to execute handler ([65a0efb](https://github.com/aiinbx/aiinbx-ts/commit/65a0efb289185700f32b6906d0bfca072800bc36))
+* **mcp:** remove deprecated tool schemes ([0e086c1](https://github.com/aiinbx/aiinbx-ts/commit/0e086c137bd38e2ecace3ec18829a1caa2e660ab))
+* **mcp:** upgrade dependencies ([850f6cf](https://github.com/aiinbx/aiinbx-ts/commit/850f6cfe49202f5e887ddbf0d5ff7b2a615d1f7c))
+
+
+### Documentation
+
+* prominently feature MCP server setup in root SDK readmes ([b4dfe7e](https://github.com/aiinbx/aiinbx-ts/commit/b4dfe7e3a2cd5e295dc0ad8a77ac7fcae2e99a2e))
+
 ## 1.229.0 (2025-12-18)
 
 Full Changelog: [v1.228.1...v1.229.0](https://github.com/aiinbx/aiinbx-ts/compare/v1.228.1...v1.229.0)
